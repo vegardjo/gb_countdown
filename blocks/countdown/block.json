@@ -1,0 +1,22 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "text/countdown",
+    "title": "Countdown to date and time",
+    "description": "An countdown block",
+    "textdomain": "default",
+    "category": "design",
+    "icon": "clock",
+    "attributes": {
+      "heading": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "border": {
+        "type": "boolean",
+        "default": "true"
+      }
+    }
+  }

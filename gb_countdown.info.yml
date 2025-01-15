@@ -1,0 +1,7 @@
+name: Gutenberg Countdown
+type: module
+description: Adds a countdown to date and time in Gutenberg.
+package: Gutenberg
+core_version_requirement: ^9.5 || ^10 || ^11
+dependencies:
+  - gutenberg
